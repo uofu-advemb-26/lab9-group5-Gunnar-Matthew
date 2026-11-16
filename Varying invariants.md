@@ -1,0 +1,2 @@
+A counter example to the example FSM is:
+    If a train is currently crossing (state is ringing, arms down) and another train approaches, the next state would still be ringing, arms_up because of the first depart signal. This breaks the invariant of "if a train is present, barrier is always lowered"
